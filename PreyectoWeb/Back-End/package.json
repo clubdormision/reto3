@@ -1,0 +1,36 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "webpack": "webpack --mode development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jhair641/Proyecto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jhair641/Proyecto/issues"
+  },
+  "homepage": "https://github.com/Jhair641/Proyecto#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.6",
+    "mongoose": "^5.12.7",
+    "morgan": "^1.10.0",
+    "node-dht-sensor": "^0.4.3",
+    "nodemon": "^2.0.7",
+    "npm": "^7.11.2"
+  },
+  "devDependencies": {
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "keywords": [],
+  "description": ""
+}
